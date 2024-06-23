@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ученики</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="container">
+        <div class="head">
+            <h1 class="head_h1">Наши любимые ученики!!!</h1>
+        </div>
+
+        <div class="student" id="student1">
+            <img class="first_dish" src="img/dish2.png" alt="">
+            <div class="info-left">
+                <h2 class="text_left">Черепанов Глеб Денисович</h2>
+                <p class="text_left">Возраст: 17</p>
+                <p class="text_left">Специальность: Разработчик программного обеспечения</p>
+                <img class="second_dish" src="img/dish1.png" alt="">
+            </div>
+            <div class="info-right" onmouseover="showDetails('details1')" onmouseout="hideDetails('details1')">
+                <img src="https://via.placeholder.com/225" alt="Фото ученика">
+                <div id="details1" class="details">
+                    <p>Положительные качества: Lorem ipsum dolor sit amet</p>
+                    <p>Отрицательные качества: Lorem ipsum dolor sit amet</p>
+                    <p>Внимателен к деталям и пишет чистый, структурированный код, который легко читать и поддерживать.</p>
+                </div>
+            </div>
+        </div>
+        <div class="student">
+            <div class="info-left">
+                <h2 class="text_left">Хоменко Роман Александрович</h2>
+                <p class="text_left">Возраст: 18</p>
+                <p class="text_left">Специальность: Разработчик программного обеспечения</p>
+            </div>
+            <img class="third_dish" src="img/dish1.png" alt="">
+            <div class="info-right" onmouseover="showDetails('details2')" onmouseout="hideDetails('details2')">
+                <img src="img/Homenko.jpg" alt="Фото ученика">
+                <div id="details2" class="details">
+                    <p>Положительные качества: Доброта, Отзывчивость</p>
+                    <p>Отрицательные качества: Равнодушие, Грубость</p>
+                    <p>Глубоко понимает проблемы клиента и разрабатывает эффективные решения, которые удовлетворяют требования заказчика.</p>
+                </div>
+            </div>
+        </div>
+        <div class="student">
+            <div class="info-left">
+                <h2 class="text_left">Хеленюк Леонид Александрович</h2>
+                <p class="text_left">Возраст: 17</p>
+                <p class="text_left">Специальность: Разработчик программного обеспечения</p>
+                <img class="second_dish" src="img/dish1.png" alt="">
+            </div>
+            <div class="info-right" onmouseover="showDetails('details3')" onmouseout="hideDetails('details3')">
+                <img src="img/Helenuk.jpg" alt="Фото ученика">
+                <div id="details3" class="details">
+                    <p>Положительные качества: Славный, Умный</p>
+                    <p>Отрицательные качества: Злость, Рассеянность</p>
+                    <p>Обладает отличными коммуникационными навыками и может объяснить сложные технические концепции простым языком.</p>
+                </div>
+            </div>
+        </div>
+        <div class="student">
+            <div class="info-left">
+                <h2 class="text_left">Качановская Янина Евгеньевна</h2>
+                <p class="text_left">Возраст: 18</p>
+                <p class="text_left">Специальность: Разработчик программного обеспечения</p>
+            </div>
+            <img class="third_dish" src="img/dish1.png" alt="">
+            <div class="info-right" onmouseover="showDetails('details4')" onmouseout="hideDetails('details4')">
+                <img src="img/Kachanovskaya.jpg" alt="Фото ученика">
+                <div id="details4" class="details">
+                    <p>Положительные качества: Ответственная, Добрая</p>
+                    <p>Отрицательные качества: Транжира, Нетерпеливая</p>
+                    <p>Стремится к автоматизации рутинных задач, чтобы улучшить эффективность работы и сократить время разработки.</p>
+                </div>
+            </div>
+        </div>
+        <div class="student">
+            <div class="info-left">
+                <h2 class="text_left">Андреев Юрий Евгеньевич</h2>
+                <p class="text_left">Возраст: 17</p>
+                <p class="text_left">Специальность: Разработчик программного обеспечения</p>
+                <img class="second_dish" src="img/dish1.png" alt="">
+            </div>
+            <div class="info-right" onmouseover="showDetails('details5')" onmouseout="hideDetails('details5')">
+                <img src="img/Andreev.jpg" alt="Фото ученика">
+                <div id="details5" class="details">
+                    <p>Положительные качества: Харизматичность, Трудолюбие</p>
+                    <p>Отрицательные качества: Дотер, Рассеянность</p>
+                    <p>Понимает важность тестирования и уделяет достаточно времени проверке своего кода на ошибки и несоответствия.</p>
+                </div>
+            </div>
+        </div>
+        <div class="student">
+            <div class="info-left">
+                <h2 class="text_left">Гаризанов Роман Константинович</h2>
+                <p class="text_left">Возраст: 17</p>
+                <p class="text_left">Специальность: Разработчик программного обеспечения</p>
+            </div>
+            <img class="third_dish" src="img/dish1.png" alt="">
+            <div class="info-right" onmouseover="showDetails('details6')" onmouseout="hideDetails('details6')">
+                <img src="img/Garizanov.png" alt="Фото ученика">
+                <div id="details6" class="details">
+                    <p>Положительные качества: Доброжелательность, Целеустремлённость</p>
+                    <p>Отрицательные качества: Ассертивный, Не пьёт пиво</p>
+                    <p>Умеет работать в команде и вносит ценный вклад в общий успех проекта, делая работу своих коллег более эффективной.</p>
+                </div>
+            </div>
+        </div>
+        <div class="student">
+            <div class="info-left">
+                <h2 class="text_left">Буданов Михаил Андреевич</h2>
+                <p class="text_left">Возраст: 18</p>
+                <p class="text_left">Специальность: Разработчик программного обеспечения</p>
+                <img class="second_dish" src="img/dish1.png" alt="">
+            </div>
+            <div class="info-right" onmouseover="showDetails('details7')" onmouseout="hideDetails('details7')">
+                <img src="img/Budanov.jpg" alt="Фото ученика">
+                <div id="details7" class="details">
+                    <p>Положительные качества: Терпеливость, Тактичность</p>
+                    <p>Отрицательные качества: Самокритичность, Жадность</p>
+                    <p>Всегда стремится к оптимизации производительности кода, чтобы приложения работали быстро и эффективно.</p>
+                </div>
+            </div>
+        </div>
+        <div class="student">
+            <div class="info-left">
+                <h2 class="text_left"> Голышев Александр Григорьевич</h2>
+                <p class="text_left">Возраст: 17</p>
+                <p class="text_left">Специальность: Разработчик программного обеспечения</p>
+            </div>
+            <img class="third_dish" src="img/dish1.png" alt="">
+            <div class="info-right" onmouseover="showDetails('details8')" onmouseout="hideDetails('details8')">
+                <img src="img/Golyshev.jpg" alt="Фото ученика">
+                <div id="details8" class="details">
+                    <p>Положительные качества: Плейбой, Филантроп</p>
+                    <p>Отрицательные качества: Не миллионер, Не гений</p>
+                    <p>Открыт к обратной связи и готов вносить изменения в свой код, чтобы улучшить его качество и соответствие требованиям.</p>
+                </div>
+            </div>
+        </div>
+        <div class="student">
+            <div class="info-left">
+                <h2 class="text_left">Селиванов Владислав Дмитриевич</h2>
+                <p class="text_left">Возраст: 17</p>
+                <p class="text_left">Специальность: Разработчик программного обеспечения</p>
+                <img class="second_dish" src="img/dish1.png" alt="">
+            </div>
+            <div class="info-right" onmouseover="showDetails('details9')" onmouseout="hideDetails('details9')">
+                <img src="img/Selivanov.png" alt="Фото ученика">
+                <div id="details9" class="details">
+                    <p>Положительные качества: Трудолюбие, Хлоднокровие</p>
+                    <p>Отрицательные качества: Нет</p>
+                    <p>Работает над развитием своих навыков и саморазвитием, посещая курсы и участвуя в профессиональных сообществах.</p>
+                </div>
+            </div>
+        </div>
+        <div class="student">
+            <div class="info-left">
+                <h2 class="text_left">Мирзоев Даниил Эркинович</h2>
+                <p class="text_left">Возраст: 18</p>
+                <p class="text_left">Специальность: Разработчик программного обеспечения</p>
+            </div>
+            <img class="third_dish" src="img/dish1.png" alt="">
+            <div class="info-right" onmouseover="showDetails('details10')" onmouseout="hideDetails('details10')">
+                <img src="https://via.placeholder.com/225" alt="Фото ученика">
+                <div id="details10" class="details">
+                    <p>Положительные качества: Lorem ipsum dolor sit amet</p>
+                    <p>Отрицательные качества: Lorem ipsum dolor sit amet</p>
+                    <p>Внимательно изучает задачу перед тем, как приступать к её выполнению, чтобы избежать недоразумений и ошибок в коде.</p>
+                </div>
+            </div>
+        </div>
+        <div class="student">
+            <div class="info-left">
+                <h2 class="text_left">Бороданов Евгений Михайлович</h2>
+                <p class="text_left">Возраст: 17</p>
+                <p class="text_left">Специальность: Разработчик программного обеспечения</p>
+                <img class="second_dish" src="img/dish1.png" alt="">
+            </div>
+            <div class="info-right" onmouseover="showDetails('details11')" onmouseout="hideDetails('details11')">
+                <img src="https://via.placeholder.com/225" alt="Фото ученика">
+                <div id="details11" class="details">
+                    <p>Положительные качества: Lorem ipsum dolor sit amet</p>
+                    <p>Отрицательные качества: Lorem ipsum dolor sit amet</p>
+                    <p>Стремится к прозрачности и документированию своего кода, чтобы его было легко понять и использовать другим разработчикам.</p>
+                </div>
+            </div>
+        </div>
+        <div class="student">
+            <div class="info-left">
+                <h2 class="text_left">Фёдоров Данила Сергеевич</h2>
+                <p class="text_left">Возраст: 18</p>
+                <p class="text_left">Специальность: Разработчик программного обеспечения</p>
+            </div>
+            <img class="third_dish" src="img/dish1.png" alt="">
+            <div class="info-right" onmouseover="showDetails('details12')" onmouseout="hideDetails('details12')">
+                <img src="img/Fedorov.jpg" alt="Фото ученика">
+                <div id="details12" class="details">
+                    <p>Положительные качества: Добрый, Общительный</p>
+                    <p>Отрицательные качества: Грубый, РостерЕд</p>
+                    <p>Понимает важность безопасности и следует лучшим практикам для защиты данных и приложений от внешних угроз.</p>
+                </div>
+            </div>
+        </div>
+        <div class="student">
+            <div class="info-left">
+                <h2 class="text_left">Дмитриченков Артем Александрович</h2>
+                <p class="text_left">Возраст: 19</p>
+                <p class="text_left">Специальность: Разработчик программного обеспечения</p>
+                <img class="second_dish" src="img/dish1.png" alt="">
+            </div>
+            <div class="info-right" onmouseover="showDetails('details13')" onmouseout="hideDetails('details13')">
+                <img src="https://via.placeholder.com/225" alt="Фото ученика">
+                <div id="details13" class="details">
+                    <p>Положительные качества: Lorem ipsum dolor sit amet</p>
+                    <p>Отрицательные качества: Lorem ipsum dolor sit amet</p>
+                    <p>Вдохновляет коллег своим энтузиазмом и любовью к программированию, создавая позитивную атмосферу в команде.</p>
+                </div>
+            </div>
+        </div>
+        <div class="student">
+            <div class="info-left">
+                <h2 class="text_left">Константинов Егор Алексеевич</h2>
+                <p class="text_left">Возраст: 18</p>
+                <p class="text_left">Специальность: Разработчик программного обеспечения</p>
+            </div>
+            <img class="third_dish" src="img/dish1.png" alt="">
+            <div class="info-right" onmouseover="showDetails('details14')" onmouseout="hideDetails('details14')">
+                <img src="https://via.placeholder.com/225" alt="Фото ученика">
+                <div id="details14" class="details">
+                    <p>Положительные качества: Lorem ipsum dolor sit amet</p>
+                    <p>Отрицательные качества: Lorem ipsum dolor sit amet</p>
+                    <p>Осознаёт, что технические решения должны быть адаптированы под нужды конечного пользователя, учитывая их удобство и потребности.</p>
+                </div>
+            </div>
+        </div>
+        <div class="student">
+            <div class="info-left">
+                <h2 class="text_left">Белозеров Кирилл Алексеевич</h2>
+                <p class="text_left">Возраст: 18</p>
+                <p class="text_left">Специальность: Разработчик программного обеспечения</p>
+                <img class="second_dish" src="img/dish1.png" alt="">
+            </div>
+            <div class="info-right" onmouseover="showDetails('details15')" onmouseout="hideDetails('details15')">
+                <img src="https://via.placeholder.com/225" alt="Фото ученика">
+                <div id="details15" class="details">
+                    <p>Положительные качества: Lorem ipsum dolor sit amet</p>
+                    <p>Отрицательные качества: Lorem ipsum dolor sit amet</p>
+                    <p>Ценит искусство работы с данными и способен анализировать большие объемы информации для выявления ключевых трендов и закономерностей.</p>
+                </div>
+            </div>
+        </div>
+        <div class="student">
+            <div class="info-left">
+                <h2 class="text_left">Купреев Даниил Дмитриевич</h2>
+                <p class="text_left">Возраст: 18</p>
+                <p class="text_left">Специальность: Разработчик программного обеспечения</p>
+            </div>
+            <img class="third_dish" src="img/dish1.png" alt="">
+            <div class="info-right" onmouseover="showDetails('details16')" onmouseout="hideDetails('details16')">
+                <img src="img/Kupreev.jpg" alt="Фото ученика">
+                <div id="details16" class="details">
+                    <p>Положительные качества: Помогатор, Общительный</p>
+                    <p>Отрицательные качества: Помогатор, Интроверт</p>
+                    <p>сегда находит время для обучения новому и готов развивать свои навыки вне рабочего графика.</p>
+                </div>
+            </div>
+        </div>
+        <div class="student">
+            <div class="info-left">
+                <h2 class="text_left">Улбутов Всеволод Алексеевич</h2>
+                <p class="text_left">Возраст: 18</p>
+                <p class="text_left">Специальность: Разработчик программного обеспечения</p>
+                <img class="second_dish" src="img/dish1.png" alt="">
+            </div>
+            <div class="info-right" onmouseover="showDetails('details17')" onmouseout="hideDetails('details17')">
+                <img src="img/Ulbutov.jpg" alt="Фото ученика">
+                <div id="details17" class="details">
+                    <p>Положительные качества: Спортсмен, Любознательный</p>
+                    <p>Отрицательные качества: Упрямство, Эмоциональность</p>
+                    <p>оддерживает высокие стандарты кодирования и способствует культуре качества в своей команде.</p>
+                </div>
+            </div>
+        </div>
+        <div class="student">
+            <div class="info-left">
+                <h2 class="text_left">Дитенбиер Маргарита Евгеньевна</h2>
+                <p class="text_left">Возраст: 18</p>
+                <p class="text_left">Специальность: Разработчик программного обеспечения</p>
+            </div>
+            <img class="third_dish" src="img/dish1.png" alt="">
+            <div class="info-right" onmouseover="showDetails('details18')" onmouseout="hideDetails('details18')">
+                <img src="img/Ditenbier.jpg" alt="Фото ученика">
+                <div id="details18" class="details">
+                    <p>Положительные качества: Помогатор, Аптека при себе</p>
+                    <p>Отрицательные качества: Сонливая, Ассертивная</p>
+                    <p>Умеет находить нестандартные решения для сложных проблем, при этом остаётся гибким и адаптивным к изменениям.</p>
+                </div>
+            </div>
+        </div>
+        <div class="student">
+            <div class="info-left">
+                <h2 class="text_left">Кучерявенко Сергей Артемович</h2>
+                <p class="text_left">Возраст: 18</p>
+                <p class="text_left">Специальность: Разработчик программного обеспечения</p>
+                <img class="second_dish" src="img/dish1.png" alt="">
+            </div>
+            <div class="info-right" onmouseover="showDetails('details19')" onmouseout="hideDetails('details19')">
+                <img src="https://via.placeholder.com/225" alt="Фото ученика">
+                <div id="details19" class="details">
+                    <p>Положительные качества: Lorem ipsum dolor sit amet</p>
+                    <p>Отрицательные качества: Lorem ipsum dolor sit amet</p>
+                    <p>Вдохновляет клиентов и коллег своими инновационными идеями, способствуя росту и развитию проектов.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <img class="footer_dish" src="img/dish2.png" alt="">
+        <p class="footer_info_1">© Toxic Company, LLC. All rights reserved. Powered by Toxicflow</p>
+        <p class="footer_info_2">Help: @toxic00021</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

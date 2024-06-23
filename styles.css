@@ -29,7 +29,7 @@ body {
 .head {
     height: 1080px;
     width: 100%;
-    background-image: url("img/orig.png");
+    background-image: url("..img/orig.png");
     background-size: 100%;
     background-position: center center;
     background-repeat: no-repeat;
